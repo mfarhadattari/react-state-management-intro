@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply border px-2 rounded-sm m-2;
+}
+
+.btn-primary {
+  @apply border px-2 bg-pink-600 rounded-sm m-2 text-white;
+}
