@@ -1,5 +1,6 @@
 import "./App.css";
-import UserInfoWithUseReducer from "./components/UserInfoWithUseReducer";
+import TODO from "./components/TODO/ToDo";
+import TodoProvider from "./provider/TodoProvider";
 
 const App = () => {
   return (
@@ -8,7 +9,10 @@ const App = () => {
       {/* <StateInClassComponent /> */}
       {/* <StateInFuncComponent /> */}
       {/* <UserInfoWithUserState /> */}
-      <UserInfoWithUseReducer />
+      {/* <UserInfoWithUseReducer /> */}
+      <TodoProvider>
+        <TODO />
+      </TodoProvider>
     </div>
   );
 };
